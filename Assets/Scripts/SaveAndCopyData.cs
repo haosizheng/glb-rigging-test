@@ -72,7 +72,7 @@ public class SaveAndCopyData : MonoBehaviour
         mesh = rend.sharedMesh;
         // assign bone weights to mesh
         BoneWeight[] copyBoneWeights = _CustomData.boneData.boneWeights;
-        // mesh.boneWeights = copyBoneWeights;
+        mesh.boneWeights = copyBoneWeights;
         // assgn Bone and BindPose
         Transform[] copyBones = _CustomData.boneData.bones;
         Matrix4x4[] copyBindpose = _CustomData.boneData.bindposes;
