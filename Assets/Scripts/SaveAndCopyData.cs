@@ -72,7 +72,21 @@ public class SaveAndCopyData : MonoBehaviour
         mesh = rend.sharedMesh;
         // assign bone weights to mesh
         BoneWeight[] copyBoneWeights = _CustomData.boneData.boneWeights;
-        mesh.boneWeights = copyBoneWeights;
+        int safeLength =0;
+        if (mesh.boneWeights.Length >= copyBoneWeights.Length)
+        {
+            safeLength = copyBoneWeights.Length;
+        }else{
+            safeLength = mesh.boneWeights.Length;
+        }
+        for (int i = 0; i < safeLength; i++)
+        {
+            mesh.boneWeights[i] = _CustomData.boneData.boneWeights[i];
+        }
+
+
+            mesh.boneWeights = copyBoneWeights;
+
         // assgn Bone and BindPose
         Transform[] copyBones = _CustomData.boneData.bones;
         Matrix4x4[] copyBindpose = _CustomData.boneData.bindposes;
@@ -91,7 +105,8 @@ public class SaveAndCopyData : MonoBehaviour
             ClickToSave_From = false;
             ClickToSave_To = false;
         }
-        if(ClickToCopyBones){
+        if (ClickToCopyBones)
+        {
             CopyData();
             ClickToCopyBones = false;
         }
