@@ -85,7 +85,7 @@ public class SaveAndCopyData : MonoBehaviour
         }
 
 
-            mesh.boneWeights = copyBoneWeights;
+            // mesh.boneWeights = copyBoneWeights;
 
         // assgn Bone and BindPose
         Transform[] copyBones = _CustomData.boneData.bones;
