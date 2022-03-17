@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d909fdfbc3544962bf4f49e526b1bad1, type: 3}
+  m_Name: BodyByNameHumanoidAvatarMapper
+  m_EditorClassIdentifier: 
+  stringComparisonMode: 4
+  CaseInsensitive: 1
+  BonesMapping:
+  - HumanBone: 10
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine.006
+  - HumanBone: 9
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine.005
+  - HumanBone: 8
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine.003
+  - HumanBone: 54
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine.004
+  - HumanBone: 7
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine.001
+  - HumanBone: 0
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - spine
+  - HumanBone: 11
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - shoulder.L
+  - HumanBone: 13
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - upper_arm.L
+  - HumanBone: 15
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - forearm.L
+  - HumanBone: 17
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - hand.L
+  - HumanBone: 12
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - shoulder.R
+  - HumanBone: 14
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - upper_arm.R
+  - HumanBone: 16
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - forearm.R
+    - R Forearm
+    - R_Forearm
+  - HumanBone: 18
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - hand.R
+    - R Hand
+    - R_Hand
+    - RightWrist
+  - HumanBone: 1
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - thigh.L
+    - L Thigh
+    - L_Thigh
+  - HumanBone: 3
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - shin.L
+    - L Calf
+    - L_Calf
+  - HumanBone: 5
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - foot.L
+    - L Foot
+    - L_Foot
+  - HumanBone: 19
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - toe.L
+    - L Toe0
+    - L_Toe0
+  - HumanBone: 2
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - thigh.R
+    - R Thigh
+    - R_Thigh
+  - HumanBone: 4
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - shin.R
+    - R Calf
+    - R_Calf
+  - HumanBone: 6
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - foot.R
+    - R Foot
+    - R_Foot
+  - HumanBone: 20
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - toe.R
+    - R Toe0
+    - R_Toe0
