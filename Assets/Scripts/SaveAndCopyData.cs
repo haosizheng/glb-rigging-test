@@ -73,16 +73,18 @@ public class SaveAndCopyData : MonoBehaviour
         // assign bone weights to mesh
         BoneWeight[] copyBoneWeights = _CustomData.boneData.boneWeights;
         int safeLength =0;
-        if (mesh.boneWeights.Length >= copyBoneWeights.Length)
+        if (mesh.vertices.Length >= copyBoneWeights.Length)
         {
             safeLength = copyBoneWeights.Length;
         }else{
-            safeLength = mesh.boneWeights.Length;
+            safeLength = mesh.vertices.Length;
         }
         for (int i = 0; i < safeLength; i++)
         {
             mesh.boneWeights[i] = _CustomData.boneData.boneWeights[i];
         }
+
+        Debug.Log("copy" + safeLength + "verts' boneweights");
 
 
             // mesh.boneWeights = copyBoneWeights;
